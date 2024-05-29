@@ -1,4 +1,4 @@
-- name: Copy files to server via SCP
+- name: Copy files to server with SCP
   uses: appleboy/scp-action@master
   with:
     host: ${{ secrets.HOST }}
